@@ -30,3 +30,4 @@ coverage
 *.tsbuildinfo
 firebaseConfig.ts
 node_modules
+.vercel
