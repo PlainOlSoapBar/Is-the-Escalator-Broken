@@ -5,6 +5,12 @@ My first web dev project entirely made by myself. I hope this goes well...
 ## Stack
 Vue.js, TailwindCSS, Firebase, Vercel
 
+## To-Do
+☐ Deploy to Vercel
+☐ Click counter
+☐ Calendar with counter statistics
+☐ Heatmap
+
 ## Project Setup
 
 ```sh
