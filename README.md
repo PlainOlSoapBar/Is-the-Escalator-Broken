@@ -6,10 +6,10 @@ My first web dev project entirely made by myself. I hope this goes well...
 Vue.js, TailwindCSS, Firebase, Vercel
 
 ## To-Do
-☐ Deploy to Vercel 
-☐ Click counter 
-☐ Calendar with counter statistics 
-☐ Heatmap 
+☐ Deploy to Vercel  
+☐ Click counter  
+☐ Calendar with counter statistics  
+☐ Heatmap  
 
 ## Project Setup
 
