@@ -21,7 +21,7 @@ importers:
         specifier: ^34.2.3
         version: 34.2.3
       vue:
-        specifier: ^3.4.21
+        specifier: ^3.4.27
         version: 3.4.27(typescript@5.4.5)
     devDependencies:
       '@tsconfig/node20':
