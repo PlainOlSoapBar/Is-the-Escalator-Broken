@@ -1,8 +1,8 @@
 import type { Config } from 'tailwindcss'
 
 export default {
-	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
-	theme: {
+    content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+    theme: {
         screens: {
             'xsm': '435px',
             'sm': '640px',
@@ -11,18 +11,16 @@ export default {
             'xl': '1280px',
             '2xl': '1536px'
         },
-		extend: {
+        extend: {
             colors:{
-                // Instagram Color Gradient (Orange, Red, Purple)
-                'igOrange': '#f9ce34',
-                'igRed': '#ee2a7b',
-                'igPurple': '#6228d7',
-                // Discord Blurple
-                'blurple': '#7289da',
+                // Cal Poly Pomona Colors
+                'cpp-green': '#164734',
+                'cpp-gold': '#FFB71A',
             },
             fontFamily: {
                 'sans': ['"DM Sans"', 'sans-serif'],
                 'display': ['"DM Serif Display"', 'serif'],
+                'odor-mean-chey': ['"OdorMeanChey"', 'sans-serif'],
             },
             fontSize:{
                 // Font size specifically for navbar
@@ -50,9 +48,9 @@ export default {
                 },
             },
         },
-	},
+    },
 
-	plugins: [
+    plugins: [
         require('@tailwindcss/typography')
     ],
 }
