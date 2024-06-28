@@ -3,14 +3,6 @@ import type { Config } from 'tailwindcss'
 export default {
     content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
     theme: {
-        screens: {
-            'xsm': '435px',
-            'sm': '640px',
-            'md': '768px',
-            'lg': '1024px',
-            'xl': '1280px',
-            '2xl': '1536px'
-        },
         extend: {
             colors:{
                 // Cal Poly Pomona Colors
@@ -28,29 +20,18 @@ export default {
                     lineHeight:1,
                 }],
             },
-            typography: {
-                DEFAULT: {
-                    css: {
-                        color: '#204063',
-                        h1: {
-                            color: '#204063',
-                        },
-                        h2: {
-                            color: '#204063',
-                        },
-                        h3: {
-                            color: '#204063',
-                        },
-                        strong: {
-                            color: '#204063',
-                        },
-                    },
-                },
-            },
         },
+        screens: {
+            'xsm': '435px',
+            'sm': '640px',
+            'md': '768px',
+            'lg': '1024px',
+            'xl': '1280px',
+            '2xl': '1536px'
+        },
+        container: {
+            padding: "2rem",
+            center: true,
+        }
     },
-
-    plugins: [
-        require('@tailwindcss/typography')
-    ],
 }
