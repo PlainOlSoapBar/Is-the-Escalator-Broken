@@ -1,15 +1,21 @@
-<script>
-  export default {
-    setup() {
-      return {};
-    },
-  };
+<script setup>
+  import HomePage from '@/components/HomePage.vue';
 </script>
 
 <template>
-  <div>
-    <h1>Home Page</h1>
-  </div>
+  <container>
+    <HomePage />
+  </container>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+  container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 45vh;
+    padding-right: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+</style>
