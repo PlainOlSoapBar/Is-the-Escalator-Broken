@@ -12,7 +12,7 @@ Vue.js, Firebase, Vercel
 ✅ Deploy site  
 ✅ Home page design:  
 \ ☐ Button to report broken escalator  
-\ ☐ Button to go to calendar page
+\ ☐ Button to go to calendar page  
 ☐ Calendar page design:  
 \ ☐ Graph reflecting the downtime of the escalator throughout a day  
 \ ☐ Heatmap reflecting the downtime of the escalator for each day of the calendar
