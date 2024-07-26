@@ -19,6 +19,8 @@ Vue.js, Firebase, Vercel
 - ☐ Functionality to view a specific day and generate a graph reflecting the day's downtime of the escalator
 - ☐ Color each day of the calendar according to a heatmap reflecting the downtime of the escalator
 
+☐ 📱 Mobile-compatible UI
+
 ## Preview
 ### Home Page
 ![Screenshot of the home page](https://github.com/user-attachments/assets/fc78dd71-a293-4f2d-b1e5-0938dff9e0aa)
