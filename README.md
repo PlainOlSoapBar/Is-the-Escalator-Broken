@@ -1,7 +1,7 @@
 # Is the Escalator Broken?
 
 Is the Escalator Broken? (ITEB for short) tracks user-reported downtime of the escalator in the Cal Poly Pomona Library.  
-First s#lo web-dev project lmao, will be messy and probably take a long time to do but let's see where this goes.
+First solo web-dev project lmao, will be messy and probably take a long time to do but let's see where this goes.
 
 ## Stack
 
